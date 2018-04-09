@@ -1,11 +1,9 @@
 import time
-
 #Primero fijamos las variables y le damos valores
 numerotabla =0
 numerocambiante=0
 resultado = numerotabla * numerocambiante
 menu = "si"
-
 #Ahora solicitamos el numero que quiere multiplicar el usuario
 while menu=="si":
 	numerotabla = int(input("Dime que tabla de multiplicar quieres saber del 0 al 10\n"))
