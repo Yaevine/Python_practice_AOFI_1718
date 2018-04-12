@@ -1,16 +1,16 @@
+#Creo e inicializo las variables
 import time
-#Primero fijamos las variables y le damos valores
-numerotabla =0
-numerocambiante=0
-resultado = numerotabla * numerocambiante
-menu = "si"
-#Ahora solicitamos el numero que quiere multiplicar el usuario
-while menu=="si":
-	numerotabla = int(input("Dime que tabla de multiplicar quieres saber del 0 al 10\n"))
-	for numerocambiante in range (11):
-		resultado = numerotabla * numerocambiante
-		print (numerotabla, "por", numerocambiante, "=",resultado)
+bucle = "si"
+tablas = 0
+numeros = 0
+
+#Preguntar un numero para las tablas de multiplicar
+while bucle == "si":
+	tablas = int(input ("De que número quieres saber su tabla de multiplicar:\n"))
+	for numeros in range(11):
+		print(tablas, " * ", numeros, "=",tablas * numeros)
 		time.sleep(0.5)
-	menu = (input("¿Quieres saber otra tabla de múltiplicar? ( si/no)\n"))
-	if menu!= "si":
-		print("Nos vemos cuando quieras aprender más :D")
+	bucle = input ("Quieres saber otra tabla de multiplicar: si o no ?\n")	
+	if bucle != "si":
+		print ("Hasta Luego")
+		

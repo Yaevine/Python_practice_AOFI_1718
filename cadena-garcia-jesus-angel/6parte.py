@@ -12,6 +12,6 @@ while menu=="si":
 		print("es un numero impar")
 	if multiprodetres % 3 ==0:
 		print("es multipro de tres")
-	menu = int(input("¿Quieres saber otro numero? (si/no)\n"))
+	menu = input("¿Quieres saber otro numero? (si/no)\n")
 	if menu!= "si":
 		print("Nos vemos cuando quieras aprender más :D")
