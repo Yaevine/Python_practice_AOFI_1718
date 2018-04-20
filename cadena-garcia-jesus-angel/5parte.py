@@ -11,6 +11,6 @@ while menu=="si":
 		resultado = numerotabla * numerocambiante
 		print (numerotabla, "por", numerocambiante, "=",resultado)
 		time.sleep(0.5)
-	menu = (input("¿Quieres saber otra tabla de múltiplicar? ( si/no)\n"))
+	menu = input("¿Quieres saber otra tabla de múltiplicar? ( si/no)\n")
 	if menu!= "si":
 		print("Nos vemos cuando quieras aprender más :D")
